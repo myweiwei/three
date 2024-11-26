@@ -25,7 +25,7 @@ moonLight.position.set(4, 5, -2)
 scene.add(moonLight)
 
 const sphereGeometry = new THREE.BufferGeometry()
-const count = 500
+const count = 50000
 const positions = new Float32Array(count * 3)
 for (let i = 0; i < count * 3; i++) {
   positions[i] = (Math.random() - 0.5) * 10

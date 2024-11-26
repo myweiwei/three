@@ -6,7 +6,7 @@ const canvas = document.querySelector('canvas.webgl');
 const scene = new THREE.Scene();
 
 const textureLoader = new THREE.TextureLoader();
-const texture = textureLoader.load('/simpleShadow.jpg');
+const texture = textureLoader.load('../static/simpleShadow.jpg');
 
 // Material
 const material = new THREE.MeshStandardMaterial();
